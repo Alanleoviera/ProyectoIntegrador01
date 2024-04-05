@@ -1,0 +1,101 @@
+main {
+    background: rgb(244, 236, 226);
+
+    padding: 20px;
+    height: auto;
+}
+
+main h1 {
+    text-align: center;
+    color: brown;
+    font-size: 3em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px gray;
+}
+
+
+main .alta-form {
+    background: linear-gradient(90deg, #fed8b6,#ffffff,#fed8b6);
+    width:70%;
+    margin: 20px auto;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    border: 2px double white;
+}
+
+main .input-group {
+    text-align: center;
+    padding: 3px;
+}
+
+main label {
+    color: darkgoldenrod;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+}
+
+main label[for="envio"] {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+main form button {
+    margin: 15px auto;
+    display: block;
+
+    width: 40%;
+    height: 35px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #130f40;
+}
+
+main input {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    background: rgb(244, 236, 226);
+
+}
+main input:empty{
+    background-color:rgb(244, 236, 226);
+}
+main input:user-invalid{
+    background-color: crimson;
+}
+
+
+main input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+main th,td {
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    padding: 10px;
+}
+
+main table {
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+
+main th {
+    text-transform: uppercase;
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+main h2 {
+    color: brown;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px gray;
+    text-align: center;
+}

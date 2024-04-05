@@ -1,0 +1,81 @@
+main {
+    width: 100%;
+    height: auto;
+    background: rgb(244, 236, 226);
+    padding: 25px;
+    text-align: center;
+}
+
+main .section-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main section img {
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px gray;
+}
+
+main section {
+    border: 2px  double white;
+    width: 350px;
+    padding: 15px;
+    background-color:rgb(237, 237, 237);
+    background: linear-gradient(90deg, #fed8b6,#ffffff,#fed8b6);
+    box-shadow: grey 2px 1px 5px;
+    color: black;
+    margin: 25px;
+    border-radius: 50px;
+    transition: all 1s 0s ease-in-out;
+}
+
+
+main section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: darkslategray
+}
+main section ul {
+    text-align: left;
+}
+main section div {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+main section input[type="checkbox"]{
+    
+    width: 15px;
+    height: 15px;
+}
+main section button {
+    font-size: 1.5em;
+    color: white;
+    border-radius: 7px;
+    background-color:forestgreen; 
+    box-shadow: 2px 2px 5px rgb(143, 98, 35);
+}
+main section button:active {
+    color: black;
+    background-color:yellow; 
+    
+}
+
+main .section-cards-header h1 {
+    color: brown;
+    font-size: 3em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px gray;
+}
+
+section:hover 
+{
+    transform: scaleX(1.2) scaleY(1.2) ;
+}
+  

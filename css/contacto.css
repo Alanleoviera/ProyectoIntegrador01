@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+main {
+    font-family:  "Quicksand", sans-serif;
+    height: 100%;
+    padding: 25px;
+    background: rgb(244, 236, 226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bannercontacto {
+    width: 45%;
+    border-radius: 25%;
+    box-shadow: 5px 5px 5px gray;
+    
+    height:500px;
+    background: url(../img/fondos-marca/contactus.webp);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+p {
+    width: 90%;
+    padding: 15px;
+    padding-top: 15%;
+    font-size: 1.7em;
+    font-weight: bold;
+    
+    text-shadow: 1px 1px 2px white;
+    
+}
+main form {
+    width: 45%;
+    padding: 20px;
+    font-size: 1.5em;
+    
+}
+main label, main input , textarea {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+main input, textarea {
+    width: 90%;
+    text-align: right;
+    border-radius: 10px;
+    border: 2px double goldenrod;
+    box-shadow: 2px 2px 2px gray;
+}
+main label {
+    text-shadow: 1px 1px 2px gray;
+}
+main textarea {
+    margin-bottom: 15px;
+}
+main form input:user-invalid {
+    background-color: crimson;
+
+}
+main form input[type=submit]{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    width: 100px;
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+main input[type=submit]:hover{
+    background-color: burlywood;
+}
+

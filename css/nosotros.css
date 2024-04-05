@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+main {
+    font-family:  "Quicksand", sans-serif;
+    background: rgb(244, 236, 226);
+    height: auto;
+
+}
+main section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+main div {
+    width: 400px;
+    padding: 50px;
+
+}
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+h3 {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+#imgnosotros{
+    width: 500px;
+    height: 500px;
+    background: url(../img/fondos-marca/nosotros.png);
+    border-radius: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 5px gray;
+}
+main section div p {
+    font-size: 1.5em;
+    text-align: justify;
+    text-shadow: 1px 2px 2px goldenrod;
+}
